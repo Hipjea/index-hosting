@@ -1,5 +1,11 @@
 # Code source page d'index Apache Hosting
 
+## Aperçu
+
+[https://hipjea.github.io/index-hosting/](https://hipjea.github.io/index-hosting/)
+
+⚠️ liens vers Moodle et WordPress non fonctionnels car cet aperçu n'est pas hébergé sur Hosting.
+
 ## Réutilisation
 
 Deux méthodes :
