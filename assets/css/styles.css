@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h1 span {
+    color: #3858e9;
+}
+
+main section.content,
+main section.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 80px auto;
+    max-width: 1280px;
+}
+
+main section.content a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #c9d2fe;
+    width: calc(50% - 80px);
+    padding: 2em;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.15s ease-in-out;
+}
+
+main section.content a:last-child {
+    background-color: #f2f2f2;
+}
+
+main section.content a:hover {
+    box-shadow: 15px 15px #3858e9;
+    color: #3858e9;
+}
+
+main section.content a:last-child:hover {
+    box-shadow: 15px 15px #f98109;
+    color: #f98109;
+}
+
+
+main section.content a header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section.content a header h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+main section.content a header small {
+    font-size: 1.2em;
+}
+
+main section.content a div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main section.content a div img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+}
+
+.card-deck .card {
+    border: 2px solid #000000;
+    border-radius: 0px;
+    padding: 2em;
+    width: calc(50% - 80px);
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.card-deck .card span {
+    font-size: 20px;
+    color: #000000;
+}
+
+.card-deck .card:hover {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.card-deck .card:hover span {
+    color: #ffffff;
+}
+
+.card-deck .card pre {
+    margin: 0;
+    margin-top: 20px;
+    color: #515151;
+    font-size: 12px;
+}
+
+.card-deck .card:hover pre {
+    color: #a2a2a2;
+}
+
+span.css {
+    font-size: 12px !important;
+    color: #a2a2a2;
+}
+
+span.css.element {
+    color: #872bff !important;
+}
+
+span.css.property {
+    color: #d30038 !important;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 2em;
+}
+
+@media (max-width: 1310px) {
+
+    main section.content a,
+    main section.card-deck .card {
+        width: 100%;
+        margin: 0 20px;
+    }
+}
