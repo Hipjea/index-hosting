@@ -17,6 +17,7 @@ Deux méthodes :
 ```shell
 cd /var/www/html
 git clone https://github.com/Hipjea/index-hosting
+mv index-hosting/* .
 ```
 
 ## Modification
