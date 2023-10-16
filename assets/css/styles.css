@@ -134,6 +134,10 @@ footer {
     padding: 2em;
 }
 
+footer a {
+    color: #3858e9;
+}
+
 @media (max-width: 1310px) {
 
     main section.content a,
